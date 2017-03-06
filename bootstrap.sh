@@ -462,7 +462,7 @@ statusCheck() {
 boot()
 {
 	echo "Cloning github repo..."
-	git clone https://github.com/redox-os/redox.git --origin upstream --recursive
+	git clone https://github.com/coler706/redox.git --origin upstream --recursive
 	rustInstall
 	echo "Cleaning up..."
 	rm bootstrap.sh
